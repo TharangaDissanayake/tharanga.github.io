@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLCrickInfo</title>
+
+    <!---Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!--FontAwesome CDN-->
+    <script src="https://kit.fontawesome.com/c75b030dfb.js" crossorigin="anonymous"></script>
+
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="css/styles.css">
+
+ 
+</head>
+
+
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-12">
+                    <div class="btn-group">
+                        <button class="btn border dropdown-toggle my-md-4 my-2 text-white" 
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        >
+                        Are You a Sri Lankan
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Yes</a>
+                            <a href="#" class="dropdown-item">No</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <h2 class="my-md-3 site-title text-white">SLCrickInfo</h2>
+                </div>
+                <div class="col-md-4 col-12 text-right">
+                    <p class="my-md-4 header-links">
+                         <a href="#" class="px-2">Sign In</a>
+                         <a href="#" class="px-2">Create An Account</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0"> <!--p-0 is padding=0-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="grounds.html">GROUNDS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">PLAYER STATS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rankings.html">RANKINGS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">RECORDS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MATCHES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="navbar-nav">
+                    <li class="nav-item border rounded-circle mx-2 search-icon">
+                        <i class="fas fa-search p-2"></i>
+                    </li>
+                </div>
+
+              </nav>
+        </div>
+    </header>
+
+                    <!--/Header-->
+
+
+                    <!--Main Section-->
+    <main>
+
+        <!--Bootstrap Carousel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/pk.jpg" height="550em" class="img-fluid" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/sinhalese-sports-club-ground.jpg"  height="550em" class="img-fluid" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/dm.jpg"  height="550em" class="img-fluid" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/rpc.jpg"  height="550em" class="img-fluid" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/galle.jpg" height="550em" class="img-fluid" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators   " role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+    </main>
+
+
+                    <!--/Main Section-->
+
+
+                    <!--Site Content-->
+                    
+    <section class="container">
+        <div class="site-content">
+             <div class="posts">
+                 <div class="post-content">
+                      <div class="post-title">
+                         <a>R. Premadasa International Cricket Stadium
+                        </a>
+                        
+                    </div>
+                     <div class="post-image">
+                         <div>
+                             <img src="images/rpc.jpg" class="img" alt="ground1">
+                         </div>
+                         <div>
+                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17782.626594413126!2d79.86912108378645!3d6.934768337337924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2590035a3ea0f%3A0x9ab3e376a84dc018!2sR.%20Premadasa%20International%20Cricket%20Stadium!5e0!3m2!1sen!2slk!4v1585640538698!5m2!1sen!2slk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                         </div>
+                         <p>The R. Premadasa International Stadium (known prior to June 1994 as the Khetterama Cricket Stadium, after the area of Colombo it stands in) was the brainchild of the late Sri Lanka President Ranasinghe Premadasa, who championed the development of this colossal 35,000-seater concrete bowl, the biggest stadium in the country.</p>
+                        <button class="btn post-btn">Read More&nbsp;<i class="fas fa-arrow-right"></i></button>
+                     </div>
+                     
+                 </div>
+             </div>
+             <div class="posts">
+                 <div class="post-content">
+                      <div class="post-title">
+                         <a>Galle International Cricket Stadium
+                        </a>
+                        
+                    </div>
+                     <div class="post-image">
+                         <div>
+                             <img src="images/galle.jpg" class="img" alt="ground2">
+                         </div>
+                         <div>
+                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.731473030127!2d80.21385281476813!3d6.031543795631755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173a4a4db2cff%3A0xd3708aea677d6f88!2sGalle%20International%20Cricket%20Stadium!5e0!3m2!1sen!2slk!4v1585642888229!5m2!1sen!2slk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                         </div>
+                         <p>Galle International Stadium  is situated near the Galle fort and fringed on two sides by the Indian Ocean. It is considered to be one of the most picturesque cricket grounds in the world.</p>
+                        <button class="btn post-btn">Read More&nbsp;<i class="fas fa-arrow-right"></i></button>
+                     </div>
+                     
+                 </div>
+             </div>
+             <div class="posts">
+                 <div class="post-content">
+                      <div class="post-title">
+                         <a>Pallekele International Cricket Stadium
+                        </a>
+                        
+                    </div>
+                     <div class="post-image">
+                         <div>
+                             <img src="images/pk.jpg" class="img" alt="ground3">
+                         </div>
+                         <div>
+                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.649523910796!2d80.720262514775!3d7.280659294744916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3613527548e61%3A0x6bbe303a73f2769b!2zUGFsbGVrZWxsZSBJbnRlcm5hdGlvbmFsIENyaWNrZXQgU3RhZGl1bSDgrqrgrrLgr43grrLgr4fgrpXgrrIg4K6a4K6w4K-N4K614K6k4K-H4K6aIOCuleCuv-CusOCuv-CuleCvjeCuleCvhuCun-CvjSDgrq7gr4jgrqTgrr7grqngrq7gr40!5e0!3m2!1sen!2slk!4v1585643915471!5m2!1sen!2slk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                         </div>
+                         <p>Pallekele International Cricket Stadium also known as Muttiah Muralitharan International Cricket Stadium is a cricket stadium in Kandy, Sri Lanka.</p>
+                        <button class="btn post-btn">Read More&nbsp;<i class="fas fa-arrow-right"></i></button>
+                     </div>
+                     
+                 </div>
+             </div>
+             <div class="posts">
+                 <div class="post-content">
+                      <div class="post-title">
+                         <a>Singhalese Sports Club Cricket Ground
+                        </a>
+                        
+                    </div>
+                     <div class="post-image">
+                         <div>
+                             <img src="images/sinhalese-sports-club-ground.jpg" class="img" alt="ground4">
+                         </div>
+                         <div>
+                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d603153.092031469!2d79.47875638423858!3d6.718960238364481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259796532fb65%3A0x3163638bb893340!2sSSC%20Cricket%20Ground!5e0!3m2!1sen!2slk!4v1585644735343!5m2!1sen!2slk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                         </div>
+                         <p>This is the headquarters of Sri Lanka Cricket, with the main administration offices located at the ground, but it has been superseded by the Premadasa as the premier venue in Colombo. The ground, which has belonged to the SSC since 1952, was used as an aerodrome by Allied forces during the Second World War, but hosted its first SRi Lanka match (against an Indian XI) in 1974.</p>
+                        <button class="btn post-btn">Read More&nbsp;<i class="fas fa-arrow-right"></i></button>
+                     </div>
+                     
+                 </div>
+             </div>
+             <div class="posts">
+                 <div class="post-content">
+                      <div class="post-title">
+                         <a>Rangiri Dambulla International Cricket Stadium
+                        </a>
+                        
+                    </div>
+                     <div class="post-image">
+                         <div>
+                             <img src="images/dm.jpg" class="img" alt="ground5">
+                         </div>
+                         <div>
+                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.3390475159504!2d80.63182071477863!3d7.859541394337248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afca5549f53e373%3A0xbcb63c44a936ea65!2sRangiri%20Dambulla%20International%20Cricket%20Stadium!5e0!3m2!1sen!2slk!4v1585645034165!5m2!1sen!2slk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                         </div>
+                         <p>Dambulla International Cricket Stadium is the newest cricket venue in Sri Lanka. The Stadium is situated in the North Central Province, close to Dambulla, an agricultural trading town also famous for its ancient UNESCO protected Buddhist Cave Temples which date back to 85 B.C. Built in a stunning location, looking out over the Dambulla Tank (reservoir) and the Dambulla Rock, the 30,000-seater stadium was constructed in just 167 days with the inaugural one-day international match being played between Sri Lanka and England in March 2000.</p>
+                        <button class="btn post-btn">Read More&nbsp;<i class="fas fa-arrow-right"></i></button>
+                     </div>
+                     
+                 </div>
+             </div>
+        </div>
+    </section>                
+                    
+                    
+                    
+                    
+                    
+                                         <!--/Site Content-->
+
+
+                                             <!--Footer-->
+
+
+
+                    <footer>
+                        <div class="footer">
+                            <div class="footer-content">
+                                <div class="footer-section about">
+                                    <h1 class="footer-logo ">SLCrickInfo</h1><br>
+                                    <p>Designed and developped by Tharanga_Dissanayake with the help of youtube using Visual Studio Coding.</p>
+                                    <br>
+                                    <div class="contact">
+                                        <span><i class="fas fa-phone"></i>&nbsp; 0719554500 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                        <span><i class="fas fa-envelope"></i>&nbsp; dmtbdissanayake@gmail.com</span>
+                                    </div>
+                                    <br><br>
+                                    <div class="socials">
+                                        <a href="#"><i class="fab fa-instagram"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                        <a href="https://twitter.com/DissTharanga"><i class="fab fa-twitter"></i></a>
+                                    </div>
+                                </div>
+                                
+                                <div class="footer-section contact-form"><br><br><br><br>
+                                    <h4><a href="#">Back To Top</a></h4><br>
+                                    <h4><a href="rankings.html">Rankings</a></h4><br>
+                                    <h4><a href="index.html">Home</a></h4><br>
+                                </div>
+                            </div>
+                
+                            <div class="footer-bottom">
+                
+                            </div>
+                        </div>
+                    </footer>
+                
+                
+                
+                                         <!--/Footer-->
+    
+</body>
+</html>

@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLCrickInfo</title>
+
+    <!---Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!--FontAwesome CDN-->
+    <script src="https://kit.fontawesome.com/c75b030dfb.js" crossorigin="anonymous"></script>
+
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="css/styles.css">
+
+ 
+</head>
+
+
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-12">
+                    <div class="btn-group">
+                        <button class="btn border dropdown-toggle my-md-4 my-2 text-white" 
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        >
+                        Are You a Sri Lankan
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Yes</a>
+                            <a href="#" class="dropdown-item">No</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <h2 class="my-md-3 site-title text-white">SLCrickInfo</h2>
+                </div>
+                <div class="col-md-4 col-12 text-right">
+                    <p class="my-md-4 header-links">
+                         <a href="#" class="px-2">Sign In</a>
+                         <a href="#" class="px-2">Create An Account</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0"> <!--p-0 is padding=0-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="grounds.html">GROUNDS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">PLAYER STATS</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="rankings.html">RANKINGS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">RECORDS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MATCHES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="navbar-nav">
+                    <li class="nav-item border rounded-circle mx-2 search-icon">
+                        <i class="fas fa-search p-2"></i>
+                    </li>
+                </div>
+
+              </nav>
+        </div>
+    </header>
+
+                    <!--/Header-->
+
+
+                    <!--Main Section-->
+    <main>
+
+        <!--Bootstrap Carousel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/p1.jpg" height="550em" class="img-fluid" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/p2.jpg"  height="550em" class="img-fluid" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/p3.jpg"  height="550em" class="img-fluid" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/p4.jpg"  height="550em" class="img-fluid" alt="Fourth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/p5.jpg" height="550em" class="img-fluid" alt="Fifth slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators   " role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+    </main>
+
+
+                    <!--/Main Section-->
+
+
+                    <!--Site Content-->
+                    
+    <div class="container">
+  <div class="row">
+    <div class=" col col-sm-12 col-md-12 col-lg-12" >
+     <div class="post-title">
+                         <a>Men's  Team Rankings
+                        </a>
+                        
+     </div>
+   </div>
+   <div class=" col col-sm-12 col-md-6 col-lg-6">
+      <div class="post-title">
+                         <a>Men's ODI Team Rankings
+                        </a>
+                        
+     </div>
+     
+     <table class="table table-hover">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Team</th>
+          <th scope="col">Weighted Matches</th>
+          <th scope="col">Points</th>
+          <th scope="col">Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>England</td>
+          <td>56</td>
+          <td>6967</td>
+          <td>124</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>India</td>
+          <td>67</td>
+          <td>7339</td>
+          <td>118</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>New Zealand</td>
+          <td>46</td>
+          <td>5347</td>
+          <td>116</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>South Africa</td>
+          <td>50</td>
+          <td>5602</td>
+          <td>112</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Australia</td>
+          <td>54</td>
+          <td>5915</td>
+          <td>110</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Pakistan</td>
+          <td>51</td>
+          <td>5019</td>
+          <td>98</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Bangladesh</td>
+          <td>51</td>
+          <td>5019</td>
+          <td>98</td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">8</th>
+          <td>Sri Lanka</td>
+          <td>59</td>
+          <td>4910</td>
+          <td>83</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>West Indies</td>
+          <td>61</td>
+          <td>4767</td>
+          <td>78</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>West Indies</td>
+          <td>61</td>
+          <td>4767</td>
+          <td>78</td>
+        </tr>
+        </tbody>
+    </table>
+
+    </div>
+    <div class=" col col-sm-12 col-md-6 col-lg-6" >
+      <div class="post-title">
+                         <a>Men's Test Team Rankings
+                        </a>
+                        
+     </div>
+     <table class="table table-hover">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Team</th>
+          <th scope="col">Weighted Matches</th>
+          <th scope="col">Points</th>
+          <th scope="col">Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>India</td>
+          <td>45</td>
+          <td>5211</td>
+          <td>116</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>New Zealand</td>
+          <td>36</td>
+          <td>3959</td>
+          <td>110</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Australia</td>
+          <td>40</td>
+          <td>4320</td>
+          <td>108</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>England</td>
+          <td>50</td>
+          <td>5253</td>
+          <td>105</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>South Africa</td>
+          <td>36</td>
+          <td>3537</td>
+          <td>98</td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">6</th>
+          <td>Sri Lanka</td>
+          <td>46</td>
+          <td>4191</td>
+          <td>91</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Pakistan</td>
+          <td>33</td>
+          <td>1795</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>West Indies</td>
+          <td>33</td>
+          <td>2675</td>
+          <td>81</td>
+        </tr>
+        <tr >
+          <th scope="row">9</th>
+          <td>Bangladesh</td>
+          <td>27</td>
+          <td>1636</td>
+          <td>61</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>Afghanistan</td>
+          <td>4</td>
+          <td>195</td>
+          <td>49</td>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <td>Zimbabwe</td>
+          <td>13</td>
+          <td>215</td>
+          <td>17</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <div class=" col col-sm-12 col-md-6 col-lg-6" ">
+      <div class="post-title">
+                         <a>Men's T20I Team Rankings
+                        </a>
+                        
+     </div>
+     <table class="table table-hover">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Team</th>
+          <th scope="col">Weighted Matches</th>
+          <th scope="col">Points</th>
+          <th scope="col">Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>pakistan</td>
+          <td>33</td>
+          <td>8926</td>
+          <td>270</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Australia</td>
+          <td>29</td>
+          <td>7815</td>
+          <td>269</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>England</td>
+          <td>24</td>
+          <td>6407</td>
+          <td>267</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>India</td>
+          <td>46</td>
+          <td>12141</td>
+          <td>264</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>South Africa</td>
+          <td>24</td>
+          <td>6220</td>
+          <td>259</td>
+        </tr>
+        <tr >
+          <th scope="row">6</th>
+          <td>New Zealand</td>
+          <td>29</td>
+          <td>7114</td>
+          <td>245</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Afghanistan</td>
+          <td>26</td>
+          <td>6061</td>
+          <td>233</td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">8</th>
+          <td>Sri Lanka</td>
+          <td>31</td>
+          <td>7178</td>
+          <td>232</td>
+        </tr>
+        <tr >
+          <th scope="row">9</th>
+          <td>Bangladesh</td>
+          <td>27</td>
+          <td>6133</td>
+          <td>227</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>West Indies</td>
+          <td>34</td>
+          <td>7698</td>
+          <td>226</td>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <td>Zimbabwe</td>
+          <td>23</td>
+          <td>4435</td>
+          <td>193</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+ <div class="row">
+  <div class=" col col-sm-12 col-md-12 col-lg-12" >
+     <div class="post-title">
+                         <a>Women's  Team Rankings
+                        </a>
+                        
+     </div>
+   </div>
+   <div class=" col col-sm-12 col-md-6 col-lg-6">
+      <div class="post-title">
+                         <a>Womens's ODI Team Rankings
+                        </a>
+                        
+     </div>
+     
+     <table class="table table-hover">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Team</th>
+          <th scope="col">Weighted Matches</th>
+          <th scope="col">Points</th>
+          <th scope="col">Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Austrailia</td>
+          <td>26</td>
+          <td>3945</td>
+          <td>152</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>India</td>
+          <td>30</td>
+          <td>3747</td>
+          <td>125</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>England</td>
+          <td>29</td>
+          <td>3568</td>
+          <td>123</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>New Zealand</td>
+          <td>26</td>
+          <td>2675</td>
+          <td>103</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>South Africa</td>
+          <td>36</td>
+          <td>3626</td>
+          <td>101</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>West Indies</td>
+          <td>24</td>
+          <td>1979</td>
+          <td>82</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Pakistan</td>
+          <td>25</td>
+          <td>1835</td>
+          <td>73</td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">8</th>
+          <td>Sri Lanka</td>
+          <td>22</td>
+          <td>1208</td>
+          <td>55</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Bangladesh</td>
+          <td>10</td>
+          <td>542</td>
+          <td>54</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>Ireland</td>
+          <td>6</td>
+          <td>110</td>
+          <td>18</td>
+        </tr>
+        </tbody>
+    </table>
+
+    </div>
+    <div class=" col col-sm-12 col-md-6 col-lg-6" >
+      <div class="post-title">
+                         <a>Women's T20I Team Rankings
+                        </a>
+                        
+     </div>
+     <table class="table table-hover">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Team</th>
+          <th scope="col">Weighted Matches</th>
+          <th scope="col">Points</th>
+          <th scope="col">Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Australia</td>
+          <td>36</td>
+          <td>10471</td>
+          <td>291</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>England</td>
+          <td>33</td>
+          <td>9175</td>
+          <td>278</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>New Zealand</td>
+          <td>26</td>
+          <td>7046</td>
+          <td>271</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>India</td>
+          <td>43</td>
+          <td>11404</td>
+          <td>265</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>South Africa</td>
+          <td>32</td>
+          <td>7881</td>
+          <td>246</td>
+        </tr>
+        <tr >
+          <th scope="row">6</th>
+          <td>West Indies</td>
+          <td>30</td>
+          <td>7371</td>
+          <td>246</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Pakistan</td>
+          <td>34</td>
+          <td>7795</td>
+          <td>229</td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">8</th>
+          <td>Sri Lanka</td>
+          <td>26</td>
+          <td>5235</td>
+          <td>201</td>
+        </tr>
+        <tr >
+          <th scope="row">9</th>
+          <td>Bangladesh</td>
+          <td>33</td>
+          <td>6344</td>
+          <td>192</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>Ireland</td>
+          <td>22</td>
+          <td>3622</td>
+          <td>165</td>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <td>Thailand</td>
+          <td>44</td>
+          <td>7033</td>
+          <td>160</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+  </div>
+</div>
+</div>  
+<div class="container">
+ <div class="row">
+  <div class=" col col-sm-12 col-md-12 col-lg-12" >
+     <div class="post-title">
+                         <a> Batting Rankings
+                        </a>
+                        
+     </div>
+   </div>
+   <div class=" col col-sm-12 col-md-4 col-lg-4">
+      <div class="post-title">
+                         <a> Test Batting Rankings
+                        </a>
+                        
+     </div>
+     
+     <table class="table table-hover">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Player</th>
+          <th scope="col">Country</th>
+          <th scope="col">Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Steve Smith</td>
+          <td>AUS</td>
+          <td>911</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Virat Kholi</td>
+          <td>Ind</td>
+          <td>886</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Marnus Labuschagne</td>
+          <td>Aus</td>
+          <td>827</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Kane Williamson</td>
+          <td>NZ</td>
+          <td>813</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Babar Azam</td>
+          <td>Pak</td>
+          <td>800</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>David Warner</td>
+          <td>AUS</td>
+          <td>793</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Cheteshwar Pujara</td>
+          <td> IND</td>
+          <td>766</td>
+        </tr>
+        <tr >
+          <th scope="row">8</th>
+          <td>Joe Root</td>
+          <td> ENG</td>
+          <td>764</td>
+
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Ajinkya Rahane</td>
+          <td> IND</td>
+          <td>726</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>Ben Stokes</td>
+          <td>ENG</td>
+          <td>718</td>
+        </tr>
+          <th scope="row">11</th>
+          <td>Mayank Agarwal</td>
+          <td> IND</td>
+          <td>714</td>
+        </tr>
+        <tr>
+          <th scope="row">12</th>
+          <td>  Tom Latham</td>
+          <td>NZ</td>
+          <td>710</td>
+        </tr>
+        <tr>
+          <th scope="row">13</th>
+          <td>Quinton de Kock</td>
+          <td> SA</td>
+          <td>706</td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">14</th>
+          <td>Dimuth Karunaratne</td>
+          <td> SL</td>
+          <td>680</td>
+        </tr>
+        <tr>
+          <th scope="row">15</th>
+          <td>Ross Taylor</td>
+          <td>NZ</td>
+          <td>677</td>
+        </tr>
+        <tr>
+          <th scope="row">16</th>
+          <td>Rohit Sharma</td>
+          <td> IND</td>
+          <td>674</td>
+        </tr>
+        <tr>
+          <th scope="row">17</th>
+          <td>Asad Shafiq</td>
+          <td>PAK</td>
+          <td>658</td>
+        </tr>
+        <tr>
+          <th scope="row">18</th>
+          <td>Angelo Mathews</td>
+          <td> SL</td>
+          <td>658</td>
+        </tr>
+        </tbody>
+    </table>
+
+    </div>
+    <div class=" col col-sm-12 col-md-4 col-lg-4">
+      <div class="post-title">
+                         <a> ODI Batting Rankings
+                        </a>
+                        
+     </div>
+     
+     <table class="table table-hover">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Player</th>
+          <th scope="col">Country</th>
+          <th scope="col">Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Virat Kholi</td>
+          <td>Ind</td>
+          <td>869</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Rohit Sharma</td>
+          <td>Ind</td>
+          <td>855</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Babar Azam</td>
+          <td> PAK</td>
+          <td>829</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Ross Taylor</td>
+          <td>NZ</td>
+          <td>828</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Francois du Plessis</td>
+          <td>SA</td>
+          <td>791</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>David Warner</td>
+          <td>AUS</td>
+          <td>773</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Kane Williamson</td>
+          <td>  NZ</td>
+          <td>773</td>
+        </tr>
+        <tr >
+          <th scope="row">8</th>
+          <td>Joe Root</td>
+          <td> ENG</td>
+          <td>770</td>
+
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Aaron Finch</td>
+          <td>AUS</td>
+          <td>758</td>
+        </tr>
+        
+          <th scope="row">10</th>
+          <td>Quinton de Kock</td>
+          <td>Sa</td>
+          <td>714</td>
+        </tr>
+        </tbody>
+    </table>
+
+    </div>
+    <div class=" col col-sm-12 col-md-4 col-lg-4">
+      <div class="post-title">
+                         <a> T20I Batting Rankings
+                        </a>
+                        
+     </div>
+     
+     <table class="table table-hover">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Player</th>
+          <th scope="col">Country</th>
+          <th scope="col">Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Babar Azam</td>
+          <td> PAK</td>
+          <td>879</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Lokesh Rahul</td>
+          <td>Ind</td>
+          <td>829</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Aaron Finch</td>
+          <td>AUS</td>
+          <td>820</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Colin Munro</td>
+          <td>NZ</td>
+          <td>785</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>  Glenn Maxwell</td>
+          <td>AUS</td>
+          <td>721</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>  Dawid Malan</td>
+          <td>ENG</td>
+          <td>718</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Eoin Morgan</td>
+          <td>ENG</td>
+          <td>687</td>
+        </tr>
+        <tr >
+          <th scope="row">8</th>
+          <td>Hazratullah</td>
+          <td>AFG</td>
+          <td>674</td>
+
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Evin Lewis</td>
+          <td> WI</td>
+          <td>758</td>
+        </tr>
+        
+          <th scope="row">10</th>
+          <td>Virat Kohli</td>
+          <td>IND</td>
+          <td>673</td>
+        </tr>
+        </tbody>
+    </table>
+
+    </div>
+  </div>
+</div>
+ 
+<div class="container">
+ <div class="row">
+  <div class=" col col-sm-12 col-md-12 col-lg-12" >
+     <div class="post-title">
+                         <a> Bowling Rankings
+                        </a>
+                        
+     </div>
+   </div>
+   <div class=" col col-sm-12 col-md-4 col-lg-4">
+      <div class="post-title">
+                         <a> Test Bowling Rankings
+                        </a>
+                        
+     </div>
+     
+     <table class="table table-hover">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Player</th>
+          <th scope="col">Country</th>
+          <th scope="col">Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Pat Cummins</td>
+          <td>AUS</td>
+          <td>904</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Neil Wagn</td>
+          <td>NZ</td>
+          <td>843</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Jason Holder</td>
+          <td>WI</td>
+          <td>830</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Tim Southee</td>
+          <td>NZ</td>
+          <td>812</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Kagiso Rabada</td>
+          <td> AUS</td>
+          <td>796</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Mitchell Starc</td>
+          <td>AUS</td>
+          <td>793</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Jasprit Bumrah</td>
+          <td> IND</td>
+          <td>779</td>
+        </tr>
+        <tr >
+          <th scope="row">8</th>
+          <td>James Anderson</td>
+          <td> ENG</td>
+          <td>775</td>
+
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Trent Boult</td>
+          <td>NZ</td>
+          <td>770</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>Josh Hazlewood</td>
+          <td>AUS</td>
+          <td>769</td>
+        
+        </tbody>
+    </table>
+
+    </div>
+    <div class=" col col-sm-12 col-md-4 col-lg-4">
+      <div class="post-title">
+                         <a> ODI Bowling Rankings
+                        </a>
+                        
+     </div>
+     
+     <table class="table table-hover">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Player</th>
+          <th scope="col">Country</th>
+          <th scope="col">Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Trent Boult</td>
+          <td>NZ</td>
+          <td>727</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jasprit Bumrah</td>
+          <td>Ind</td>
+          <td>719</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Mujeeb Ur Rahman</td>
+          <td>AFG</td>
+          <td>701</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Pat Cummins</td>
+          <td>AUS</td>
+          <td>671</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>  Kagiso Rabada</td>
+          <td>SA</td>
+          <td>664</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>  Chris Woakes</td>
+          <td> ENG</td>
+          <td>659</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Mohammad Amir</td>
+          <td>PAK</td>
+          <td>656</td>
+        </tr>
+        <tr >
+          <th scope="row">8</th>
+          <td>Matt Henry</td>
+          <td>NZ</td>
+          <td>643</td>
+
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Lachlan Ferguson</td>
+          <td>NZ</td>
+          <td>638</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>Mitchell Starc</td>
+          <td> AUS</td>
+          <td>637</td>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <td>Rashid Khan</td>
+          <td>AFG</td>
+          <td>630</td>
+        </tr>
+        <tr>
+          <th scope="row">12</th>
+          <td>Mehedi Hasan</td>
+          <td>BAN</td>
+          <td>626</td>
+        </tr>
+        <tr>
+          <th scope="row">13</th>
+          <td>Yuzvendra Chahal</td>
+          <td>IND</td>
+          <td>622</td>
+        </tr>
+        <tr>
+          <th scope="row">14</th>
+          <td>Lungi Ngidi</td>
+          <td>NZ</td>
+          <td>618</td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">15</th>
+          <td>Akila Dananjaya</td>
+          <td>SL</td>
+          <td>611</td>
+        </tr>
+        </tbody>
+    </table>
+
+    </div>
+    <div class=" col col-sm-12 col-md-4 col-lg-4">
+      <div class="post-title">
+                         <a> T20I Bowling Rankings
+                        </a>
+                        
+     </div>
+     
+     <table class="table table-hover">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Player</th>
+          <th scope="col">Country</th>
+          <th scope="col">Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Rashid Khan</td>
+          <td>AFG</td>
+          <td>736</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Mujeeb Ur Rahman</td>
+          <td>AFG</td>
+          <td>730</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Adam Zampa</td>
+          <td>AUS</td>
+          <td>713</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Ashton Agaro</td>
+          <td>AUS</td>
+          <td>712</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Tabraiz Shamsi</td>
+          <td>SA</td>
+          <td>681</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>  Mitchell Santner</td>
+          <td>NZ</td>
+          <td>677</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Imad Wasim</td>
+          <td>PAK</td>
+          <td>672</td>
+        </tr>
+        <tr >
+          <th scope="row">8</th>
+          <td>Adil Rashid</td>
+          <td>ENG</td>
+          <td>658</td>
+
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Shadab Khan</td>
+          <td>PAK</td>
+          <td>653</td>
+        </tr>
+        
+          <th scope="row">10</th>
+          <td>Chris Jordan</td>
+          <td>ENG</td>
+          <td>639</td>
+        </tr>
+        </tbody>
+    </table>
+
+    </div>
+  </div>
+</div>
+</div> 
+
+                    
+                    
+                    
+                    
+                    
+                                       <!--/Site Content-->
+
+
+                                           <!--Footer-->
+
+
+
+                    <footer>
+                      <div class="footer">
+                          <div class="footer-content">
+                              <div class="footer-section about">
+                                  <h1 class="footer-logo ">SLCrickInfo</h1><br>
+                                  <p>Designed and developped by Tharanga_Dissanayake with the help of youtube using Visual Studio Coding.</p>
+                                  <br>
+                                  <div class="contact">
+                                      <span><i class="fas fa-phone"></i>&nbsp; 0719554500 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                      <span><i class="fas fa-envelope"></i>&nbsp; dmtbdissanayake@gmail.com</span>
+                                  </div>
+                                  <br><br>
+                                  <div class="socials">
+                                      <a href="#"><i class="fab fa-instagram"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                      <a href="https://twitter.com/DissTharanga"><i class="fab fa-twitter"></i></a>
+                                  </div>
+                              </div>
+                              
+                              <div class="footer-section contact-form"><br><br><br><br>
+                                  <h4><a href="#">Back To Top</a></h4><br>
+                                  <h4><a href="grounds.html">Grounds</a></h4><br>
+                                  <h4><a href="index.html">Home</a></h4><br>
+                              </div>
+                          </div>
+              
+                          <div class="footer-bottom">
+              
+                          </div>
+                      </div>
+                  </footer>
+              
+              
+              
+                                       <!--/Footer-->
+
+    
+</body>
+</html>
